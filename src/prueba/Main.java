@@ -15,9 +15,10 @@ public class Main
 		p2.setApellido("Morales Delfino");
 		
 		
-		if(p1 == p2)
+		if(p1!= p2)
 		{
-			System.out.println("BHola!");
+			System.out.println(p1.toString());
+			System.out.println(p2.toString());
 		}
 		
 	}

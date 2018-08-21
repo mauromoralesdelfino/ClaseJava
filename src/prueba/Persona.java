@@ -43,5 +43,11 @@ public class Persona
   {
 	  this._dni = dni;
   }
+  
+  @Override
+  public String toString()
+  { 
+	  return "Nombre: " + this._nombre + " Apellido: " + this._apellido + " DNI: " + this._dni;
+  }
 
 }
